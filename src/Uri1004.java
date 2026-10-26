@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Uri1004 {
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+
+        int A;
+        int B;
+        A = teclado.nextInt();
+        B = teclado.nextInt();
+
+        int prod = A * B;
+        System.out.println("PROD = " + prod);
+    }
+}
