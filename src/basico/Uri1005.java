@@ -1,18 +1,19 @@
+package basico;
+
 import java.util.Scanner;
 
-public class Uri1006 {
+public class Uri1005 {
     public static void main(String[] args) {
 
         Scanner teclado = new Scanner(System.in);
 
-        double a, b, c;
+        double a, b;
 
         a = teclado.nextDouble();
         b = teclado.nextDouble();
-        c = teclado.nextDouble();
 
-        double media = (a * 2.0 + b * 3.0 + c * 5.0) / 10;
+        double media = (3.5 * a + b * 7.5) / 11;
 
-        System.out.printf("MEDIA = %.1f%n", media);
+        System.out.printf("MEDIA = %.5f%n", media);
     }
 }

@@ -1,7 +1,7 @@
-
+package basico;
 import java.util.Scanner;
 
-public class Uri1003 {
+public class Uri1004 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
@@ -10,7 +10,7 @@ public class Uri1003 {
         A = teclado.nextInt();
         B = teclado.nextInt();
 
-        int soma = A + B;
-        System.out.println("SOMA = " + soma);
+        int prod = A * B;
+        System.out.println("PROD = " + prod);
     }
 }

@@ -1,18 +1,20 @@
+package basico;
 
 import java.util.Scanner;
 
-public class Uri1013 {
+public class Uri1007 {
     public static void main(String[] args) {
 
         Scanner teclado = new Scanner(System.in);
 
-        int a, b, c;
+        int a, b, c, d;
+
         a = teclado.nextInt();
         b = teclado.nextInt();
         c = teclado.nextInt();
-        int maiorab = (a + b + Math.abs(a - b)) / 2;
-        int maior = (maiorab + c + Math.abs(maiorab - c)) / 2;
+        d = teclado.nextInt();
 
-        System.out.println(maior + " eh o maior");
+        int dif = (a * b - c * d);
+        System.out.println("DIFERENCA = " + dif);
     }
 }
